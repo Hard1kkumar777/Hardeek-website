@@ -8,11 +8,11 @@
     font-family: 'Arial', sans-serif;
     scroll-behavior: smooth; /* Smooth scrolling for nav links */
 }
-
-body {
+     body {
     line-height: 1.6;
     color: #333;
     background-color: #f5f5f5;
+    padding-top: 90px;   /* fixes sticky navbar overlap */
 }
 
 /* ======================
@@ -226,4 +226,5 @@ body.dark nav {
 body.dark footer {
     background-color: #161b22;
 }
+
 
